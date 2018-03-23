@@ -9,7 +9,7 @@ class IncrementScreen extends React.Component {
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Button
           title="Increment"
-          onPress={this.props.counterStore.anotherIncrement}
+          onPress={this.props.counterStore.increment}
         />
       </View>
     );
